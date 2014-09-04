@@ -1,0 +1,44 @@
+{
+	"supportedLocale": {
+		"name": "supportedLocale",
+		"type": "string",
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"en": "English"
+		},
+		"dataBinding": {
+			"dataValue": ""
+		},
+		"saveInPhonegap": false,
+		"category": "wm.Variable",
+		"_id": "wm-wm.Variable1402640443182"
+	},
+	"GoogleapisInvoke": {
+		"name": "GoogleapisInvoke",
+		"type": "directionsresponse",
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {
+			"origin": "Toronto",
+			"destination": "Montreal",
+			"sensor": "false"
+		},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 20,
+		"designMaxResults": 10,
+		"operation": "invoke",
+		"service": "googleapis",
+		"startUpdate": true,
+		"autoUpdate": true,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"serviceType": "RestService",
+		"category": "wm.ServiceVariable",
+		"_id": "wm-wm.ServiceVariable1409826268607"
+	}
+}
